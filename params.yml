@@ -186,11 +186,11 @@ font:
   enable: true
   article:
     - Mulish
-    - Noto Serif SC
+    #- Noto Serif SC
   code:
     # - Ubuntu Mono
     # - Source Code Pro
-    # - JetBrains Mono
+    - JetBrains Mono
 
 # Local FallBack Font
 local_font:
