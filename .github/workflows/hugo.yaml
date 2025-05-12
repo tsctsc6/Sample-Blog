@@ -30,9 +30,9 @@ defaults:
 jobs:
   # 构建作业
   build:
-    runs-on: ubuntu-latest
+    runs-on: debain-latest
     env:
-      HUGO_VERSION: 0.120.2
+      HUGO_VERSION: 0.147.2
     steps:
       - name: 安装Hugo CLI
         run: |
