@@ -3,15 +3,13 @@ date = '2025-05-12T15:50:38+08:00'
 draft = false
 title = 'My First Post'
 math = true
-categories = ['Main Post']
-tags = ['sample', 'C#']
 +++
 
-你好！
+Hello world!
 
 $$\boldsymbol{x}_{i+1}+\boldsymbol{x}_{i+2}=\boldsymbol{x}_{i+3}$$
 
-``` C# {name="Proogram.cs"}
+``` csharp
 private void Test()
 {
   Console.WriteLine("Hello!");

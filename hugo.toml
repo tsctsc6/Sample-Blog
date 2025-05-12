@@ -27,3 +27,7 @@ baseName = "algolia"
 isPlainText = true
 mediaType = "application/json"
 notAlternative = true
+
+[taxonomies]
+category = 'categories'
+tag = 'tags'
