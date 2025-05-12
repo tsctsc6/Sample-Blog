@@ -67,7 +67,7 @@ jobs:
         with:
           path: ./public
       - name: 上传索引
-        run: npx cross-env ALGOLIA_APP_ID=J0995S445Z ALGOLIA_ADMIN_KEY=06a6c4bd9cfc552c3d78a034d171fd5f ALGOLIA_INDEX_NAME=sample-blog ALGOLIA_INDEX_FILE=algolia.json atomic-algolia
+        run: npx cross-env ALGOLIA_APP_ID=J0995S445Z ALGOLIA_ADMIN_KEY=06a6c4bd9cfc552c3d78a034d171fd5f ALGOLIA_INDEX_NAME=sample-blog ALGOLIA_INDEX_FILE=public/algolia.json atomic-algolia
 
   # 部署作业
   deploy:
