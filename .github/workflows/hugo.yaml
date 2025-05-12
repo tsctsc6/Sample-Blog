@@ -30,7 +30,7 @@ defaults:
 jobs:
   # 构建作业
   build:
-    runs-on: debain-latest
+    runs-on: Debian-latest
     env:
       HUGO_VERSION: 0.147.2
     steps:
