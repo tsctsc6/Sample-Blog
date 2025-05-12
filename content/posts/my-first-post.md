@@ -6,4 +6,6 @@ title = 'My First Post'
 
 Hello world!
 
+{{< math >}}
 $$E = mc^2$$
+{{< /math >}}
