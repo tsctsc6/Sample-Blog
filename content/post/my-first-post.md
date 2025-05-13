@@ -11,9 +11,11 @@ tags = ['sample', 'C#']
 
 $$\boldsymbol{x}_{i+1}+\boldsymbol{x}_{i+2}=\boldsymbol{x}_{i+3}$$
 
-``` C# {name="Proogram.cs"}
+```C# {name="Program.cs"}
 private void Test()
 {
-  Console.WriteLine("Hello!");
+    var processorCount = Environment.ProcessorCount;
+        Parallel.For(0, processorCount, new ParallelOptions { MaxDegreeOfParallelism = processorCount },
+            _ => IntensiveInt64Calculation());
 }
 ```
