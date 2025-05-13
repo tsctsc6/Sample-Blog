@@ -3,7 +3,7 @@ date = '2025-05-12T15:50:38+08:00'
 draft = false
 title = 'My First Post'
 math = true
-categories = ['Main Post']
+categories = ['Main Sections']
 tags = ['sample', 'C#']
 +++
 
