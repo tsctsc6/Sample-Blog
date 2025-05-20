@@ -19,3 +19,5 @@ private void Test()
             _ => IntensiveInt64Calculation());
 }
 ```
+
+![img](/img.png)
