@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 title = 'My New Hugo Site'
-theme = 'ananke'
+theme = 'reimu'
 timeZone = "Asia/Shanghai"
 languageCode = 'zh-CN'
 defaultContentLanguage = 'zh-CN'
