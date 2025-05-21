@@ -31,3 +31,9 @@ notAlternative = true
 [taxonomies]
 category = 'categories'
 tag = 'tags'
+
+[markup.goldmark.renderHooks.image]
+enableDefault = true
+
+[markup.goldmark.renderHooks.link]
+enableDefault = true
