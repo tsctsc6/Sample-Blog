@@ -20,4 +20,4 @@ private void Test()
 }
 ```
 
-![img](img.png)
+![img](/img.png)

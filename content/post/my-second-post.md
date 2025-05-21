@@ -1,7 +1,7 @@
 +++
 date = '2025-05-12T15:50:38+08:00'
 draft = false
-title = 'Mermaid Sample'
+title = 'My Second Post'
 math = true
 mermaid = true
 +++
@@ -31,3 +31,5 @@ sequenceDiagram
     John->>Bob: How about you?
     Bob-->>John: Jolly good!
 ```
+
+![img](/img.png)
